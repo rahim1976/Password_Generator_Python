@@ -2,7 +2,7 @@ import streamlit as st
 import random
 
 st.set_page_config(
-    page_title="Password Generator",
+    page_title="GetPass",
     page_icon="🔒",
     layout="centered"
 )
@@ -32,7 +32,7 @@ with st.sidebar:
 # Sidebar End
 
 # Main content Start
-st.title("Password Generator🔒")
+st.title("GetPass - Password Generator🔒")
 st.markdown("### *Generate Strong Passwords in Seconds*")
 st.markdown('> *"Your password is the key to your digital kingdom - make it strong!"*')
 
